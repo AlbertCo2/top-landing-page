@@ -1,3 +1,5 @@
+/* Style sheet for TOP Landing Page */
+
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -5,3 +7,23 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.header-logo {
+
+  }
+
+.links {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+  }
+
