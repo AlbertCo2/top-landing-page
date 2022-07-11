@@ -132,9 +132,14 @@ a {
     
 }
 
+.content-two {
+    display: flex;
+    
+}
+
 .content-three {
     background-color: #E5E7EB;
-    padding: 60px 160px;
+    padding: 60px 220px;
 }
 
 .inspire-text {
@@ -148,7 +153,8 @@ a {
     display: flex;
     flex-direction: row-reverse;
     font-weight: 800;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    margin-right: 30px;
 }
 
 li {
@@ -178,7 +184,7 @@ li {
     flex-direction: column;
    
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     
 
