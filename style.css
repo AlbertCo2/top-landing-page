@@ -75,6 +75,7 @@ a {
     display: flex;
     flex-direction: column;
     color: #E5E7EB;
+    /* max-width: 520px; */
 }
 
 .header1 {
@@ -96,25 +97,25 @@ a {
   text-align: center;
   text-decoration: none;
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
   margin: 4px 2px;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 5px;
+  background-color: #3882F6;
+  align-items: center;
 }
 
-.header2 {
+.header2,
+.header2a {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-.signup {
-    background-color: #3882F6;
+.header2a {
     display: flex;
-    align-items: center;
-    font-size: 14px;
-    
-    
+    justify-content: center;
+    padding: 20px;
 }
 
 .signup2 {
@@ -134,7 +135,43 @@ a {
 
 .content-two {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    max-width: 150px;
+    flex: 1;
+    
+    
+    
+}
+.card-text {
+    /* max-width: 100px; */
+    font-size: 14px;
+    align-self: center;
+    padding: auto;
+    text-align: center;
+    
+}
+
+.card-image {
+    width: 100%;
+    
+
 }
 
 .content-three {
