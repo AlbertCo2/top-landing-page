@@ -240,3 +240,6 @@ li {
     font-style: normal;
     flex-direction: ;
 }
+.footer-link {
+    padding-left: 3px;
+}
